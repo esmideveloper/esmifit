@@ -1,0 +1,39 @@
+# takavar Gym System Configuration
+app:
+  name: "باشگاه بدنسازی تکاور"
+  version: "1.0.0"
+  debug: false
+
+database:
+  path: "../gym_system.db"
+  type: "sqlite"  # sqlite or postgresql
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+
+ui:
+  theme: "dark"
+  language: "fa"
+  direction: "rtl"
+  timezone: "Asia/Tehran"
+
+features:
+  qr_code: true
+  attendance: true
+  workout_tracking: true
+  nutrition_plans: true
+  product_store: true
+  membership_plans: true
+  report_export: true
+
+notifications:
+  welcome_message: true
+  payment_reminder: true
+  membership_expiry: true
+  expiry_days_before: 7
+
+currency:
+  symbol: "تومان"
+  code: "IRT"
+  decimal_places: 0
