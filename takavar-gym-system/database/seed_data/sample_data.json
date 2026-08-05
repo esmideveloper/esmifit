@@ -1,0 +1,130 @@
+{
+  "trainers": [
+    {
+      "first_name": "علی",
+      "last_name": "رضایی",
+      "phone": "09123456789",
+      "email": "ali.razaei@takavar.com",
+      "specialization": "بدنسازی حرفه‌ای، تکنیک‌های پیشرفته پرس",
+      "certifications": "مدعِّل بین‌المللی بدنسازی، گواهی آموزشی مدربان فدراسیون بدنسازی ایران",
+      "years_experience": 8,
+      "hourly_rate": 200000
+    },
+    {
+      "first_name": "فاطمه",
+      "last_name": "حسینی",
+      "phone": "09356789012",
+      "email": "fatameh.hosseini@takavar.com",
+      "specialization": "یوگا، پیلیوس، کششی",
+      "certifications": "مدرب Certified Yoga Alliance RYT-500",
+      "years_experience": 5,
+      "hourly_rate": 150000
+    },
+    {
+      "first_name": "محمد",
+      "last_name": "کریمی",
+      "phone": "09198765432",
+      "email": "mohammad.karimi@takavar.com",
+      "specialization": "کارودی، HIIT، تمرینات قلبی-عروقی",
+      "certifications": "مدرب کارودی معتبر فدراسیون جنگل ایران",
+      "years_experience": 6,
+      "hourly_rate": 180000
+    }
+  ],
+  "subscription_plans": [
+    {
+      "name": "برونزی",
+      "description": "پکیج مقدماتی برای اعضای جدید با دسترسی پایه به sala",
+      "duration_days": 30,
+      "price": 500000,
+      "currency": "IRT",
+      "max_allowed_members": 100,
+      "included_features": ["gym_access", "locker"],
+      "priority": 1
+    },
+    {
+      "name": "نقره‌ای",
+      "description": "پکیج پیشرفته با دسترسی‌های بیشتر و سوئیت‌ها",
+      "duration_days": 30,
+      "price": 800000,
+      "currency": "IRT",
+      "max_allowed_members": 50,
+      "included_features": ["gym_access", "locker", "towel", "sauna"],
+      "priority": 2
+    },
+    {
+      "name": "طلایی",
+      "description": "پکیج لوکس با بهترین امکانات و کارشناس شخصی",
+      "duration_days": 30,
+      "price": 1200000,
+      "currency": "IRT",
+      "max_allowed_members": 20,
+      "included_features": ["gym_access", "locker", "towel", "sauna", "personal_trainer"],
+      "priority": 3
+    },
+    {
+      "name": "VIP ویژه",
+      "description": "پکیج کمیته ویژه با تمامی امکانات exclusif",
+      "duration_days": 30,
+      "price": 2000000,
+      "currency": "IRT",
+      "max_allowed_members": 5,
+      "included_features": ["gym_access", "locker", "towel", "sauna", "personal_trainer", "massage", "private_room"],
+      "priority": 4
+    }
+  ],
+  "rooms": [
+    {
+      "name": "سالن اصلی بدنسازی",
+      "description": "سالن اصلی با تمام تجهیزات بدنسازی و پرس‌ها",
+      "capacity": 50
+    },
+    {
+      "name": "سالن کارودی",
+      "description": "سالن کارودی با دوچرخه، میخک و تجهیزات کاردیو",
+      "capacity": 30
+    },
+    {
+      "name": "سالن یوگا و کششی",
+      "description": "سالن یوگا و کلاس‌های کششی با متفرقه‌های مخصوص",
+      "capacity": 20
+    },
+    {
+      "name": "سالن شخصی‌سازی",
+      "description": "سالن تمرین شخصی با کارشناسان",
+      "capacity": 5
+    }
+  ],
+  "exercises": [
+    {"name": "پرس سینه"، "muscle_group": "chest", "equipment_needed": "پرس مچ‌تی"},
+    {"name": "پرز پشت"، "muscle_group": "back", "equipment_needed": "کابل"},
+    {"name": "锻炼‌های شانه"، "muscle_group": "shoulders", "equipment_needed": " dumb_bel"},
+    {"name": "三頭肌", "muscle_group": "triceps", "equipment_needed": "کابل"},
+    {"name": "خم شدن زانو", "muscle_group": "legs", "equipment_needed": " dumb_bel"},
+    {"name": "Deadlift", "muscle_group": "back", "equipment_needed": "بار"},
+    {"name": "Bench Press", "muscle_group": "chest", "equipment_needed": "بنس پرسینگ"},
+    {"name": "ت 전극 زانو", "muscle_group": "legs"},
+    {"name": "Cardio Treadmill", "muscle_group": "cardio", "equipment_needed": "تترین"},
+    {"name": "جیم باد", "muscle_group": "full_body"},
+    {"name": "Core Plank", "muscle_group": "core"},
+    {"name": "Biceps Curl", "muscle_group": "biceps", "equipment_needed": " dumb_bel"},
+    {"name": "Lat Pulldown", "muscle_group": "back", "equipment_needed": "تجهیزات کشش"},
+    {"name": "Leg Press", "muscle_group": "legs", "equipment_needed": "Leg Press ماشین"},
+    {"name": "Shoulder Press", "muscle_group": "shoulders", "equipment_needed": " dumb_bel"},
+    {"name": "Triceps Pushdown", "muscle_group": "triceps", "equipment_needed": "کابل"},
+    {"name": "Romanian Deadlift", "muscle_group": "back", "equipment_needed": "بار"},
+    {"name": "Hammer Curl", "muscle_group": "biceps", "equipment_needed": " dumb_bel"},
+    {"name": "Face Pull", "muscle_group": "shoulders", "equipment_needed": "کابل"},
+    {"name": "Dumbbell Row", "muscle_group": "back", "equipment_needed": " dumb_bel"},
+    {"name": "Incline Bench Press", "muscle_group": "chest", "equipment_needed": "بنس پرسینگ"},
+    {"name": "Leg Curl", "muscle_group": "legs", "equipment_needed": "Leg Curl ماشین"},
+    {"name": "Leg Extension", "muscle_group": "legs", "equipment_needed": "Leg Extension ماشین"},
+    {"name": "Calf Raise", "muscle_group": "legs"},
+    {"name": "Oblique Crunch", "muscle_group": "core"},
+    {"name": "Pull-ups", "muscle_group": "back", "equipment_needed": "철봉"},
+    {"name": "Dips", "muscle_group": "chest", "equipment_needed": "تلكی دایپر"},
+    {"name": "Cable Fly", "muscle_group": "chest", "equipment_needed": "کابل"},
+    {"name": "Seated Row", "muscle_group": "back", "equipment_needed": "کابل"},
+    {"name": "Upright Row", "muscle_group": "shoulders", "equipment_needed": " dumb_bel یا بار"}
+  ]
+}
