@@ -1,5 +1,33 @@
-node_modules/
-dist/
+```
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.log
+generated_plugin_registrant.*
+
+# Windows
+windows/Flutter/ephemeral
+windows/runner/Release
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
 .env
-.env.*
-!.env.example
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+```
